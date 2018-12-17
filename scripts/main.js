@@ -1,15 +1,27 @@
 $(function () { // start document ready 
   
-  // let particles = Particles.init({
-  //   selector: '.triangles',
-  //   color: ['#DA0463', '#404B69', '#DBEDF3'],
-  //   sizeVariations: 0,
-  //   maxParticles: 500,
-  // }); 
+  AOS.init({
+    // once: true,
+    mirror: false,
+  });
 
-  // particlesJS.load('particles-js', './assets/particles.json', function () {
-
+  
+  // $(".name").hover(
+  //   function () {
+  //   $('.name').css("mix-blend-mode", "difference");
+  // }, 
+  // function () {
+  //   $('.name').css("mix-blend-mode", "multiply");
   // });
+    
+
+
+  // $(".name").hover(
+  //   function () {
+  //     $(this).css("opacity", "1")
+  //   }
+
+  // );
 
 }); // end of document ready 
 
