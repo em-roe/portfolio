@@ -5,7 +5,12 @@ $(function () { // start document ready
     mirror: false,
   });
 
+
+  $('button.send').on('click', function(){
+    $('form')[0].reset();
+  });
   
+
   // $(".name").hover(
   //   function () {
   //   $('.one').addClass('animated hinge');
